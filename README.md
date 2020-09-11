@@ -13,3 +13,12 @@ This small program, puts the terminal into raw mode, and converts (somewhat) the
 
 Together with the video playback from an HDMI capture device like https://www.amazon.com/MavisLink-Capture-Definition-Acquisition-Broadcasting/dp/B087C3NG9W/ref=sr_1_3?dchild=1&keywords=hdmi+capture&qid=1599862416&sr=8-3 this gives a very simple ad-hoc KVM solution, or simply a replacement for an extra display and keyboard.
 
+# compiling
+
+Install Rust if not installed yet, then "cargo build"
+
+# running
+
+./target/debug/ch9328kbd \[device-name\]
+
+You might need sudo, depending on your serial device permissions.
