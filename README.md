@@ -5,7 +5,7 @@ CH9328 (https://lcsc.com/product-detail/USB-ICs_WCH-Jiangsu-Qin-Heng-CH9328_C824
 
 The controller has several modes, depending on whether the IO pins are left hanging or pulled to the ground during the boot...
 
-If you pull IO2 to the ground, this unlocks a pretty cool mode whereby the chip simply "bridges" the 8-byte chunks of data received via the serial port as USB keyboard HID reports.
+If you keep IO2 pin pulled to the ground when the device gets its power, this unlocks a pretty cool mode whereby the chip simply "bridges" the 8-byte chunks of data received via the serial port as USB keyboard HID reports.
 
 The format must be 8 bytes of keypress event, followed by 8 bytes of key release event, as per https://wiki.osdev.org/USB_Human_Interface_Devices#USB_keyboard
 
